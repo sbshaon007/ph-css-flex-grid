@@ -1,61 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex Grid Learning</title>
 
-    <style>
-         
 
+    <!-- CSS files -->
+    <link rel="stylesheet" href="css/style.css">
 
-
-    </style>
 
 </head>
+
 <body>
 
     <header>
 
         <!-- Navigation -->
 
-        <nav>
+        <div id="logo-container">
 
-            <div id="logo">
+            <img id="logo-img" src="images/logo.png" alt="logo">
 
-                <img width="200px" src="images/pngegg.png" alt="logo">
-            
-            </div>
+        </div>
 
-        </nav>
+
 
         <!-- nav>ul>li.menu-item*5>a:link{Menu Item $} -->
 
         <nav>
-            <ul id="menu">
-                <li class="menu-item"><a href="#">Menu Item 1</a></li>
-                <li class="menu-item"><a href="#">Menu Item 2</a></li>
-                <li class="menu-item"><a href="#">Menu Item 3</a></li>
-                <li class="menu-item"><a href="#">Menu Item 4</a></li>
-                <li class="menu-item"><a href="#">Menu Item 5</a></li>
+            <ul id="menu-container">
+                <li class="menu-item"><a href="index.html">Home</a></li>
+                <li class="menu-item"><a href="#">About</a></li>
+                <li class="menu-item"><a href="#">Products</a></li>
+                <li class="menu-item"><a href="#">Blog</a></li>
+                <li class="menu-item"><a href="#">Contact</a></li>
             </ul>
         </nav>
 
+
+
+
+    </header>
+
+
+    <main>
 
         <section id="hero">
             <div class="hero-content">
                 <h1>Make more sales without spending more money.</h1>
                 <p>Join 10,000+ businesses using our automated marketing platform to scale their revenue globally.</p>
-                <button id="cta-btn">Join Now</button>
-                <button id="cta-btn">Join Now</button>
+
+
             </div>
+
+            <div id="btn-container">
+
+                <button id="cta-btn">Join Now</button>
+                <button id="pm-btn">About Us</button>
+
+            </div>
+
+
         </section>
 
-    </header>
 
+    </main>
 
-
-<section>
+    <!-- <section>
 
     <div class="container">
         <div class="box">Box 1</div>
@@ -81,8 +94,9 @@
         <div class="box">Box 21</div>
     </div>
 
-</section>
-     
-    
+</section> -->
+
+
 </body>
+
 </html>
